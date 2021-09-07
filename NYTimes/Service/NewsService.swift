@@ -11,10 +11,10 @@ import Combine
 enum ServiceError: Error {
     case errorWith(message:String)
 }
+
 protocol  NewsService  {
     func get(urlRequest:URLRequest)-> AnyPublisher<Data, ServiceError>
 }
-
 
 class NewsServiceImp: NewsService {
     func get(urlRequest:URLRequest)-> AnyPublisher<Data, ServiceError> {
