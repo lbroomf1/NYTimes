@@ -21,6 +21,7 @@
 		04AEB59326E7A78B00CA18E5 /* ServiceEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59226E7A78B00CA18E5 /* ServiceEndPoint.swift */; };
 		04AEB59626E7A8A600CA18E5 /* TopStoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59526E7A8A600CA18E5 /* TopStoriesViewModel.swift */; };
 		04AEB59826E7A97D00CA18E5 /* TopStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59726E7A97D00CA18E5 /* TopStories.swift */; };
+		04AEB59A26E7A9FD00CA18E5 /* TopStoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		04AEB59226E7A78B00CA18E5 /* ServiceEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEndPoint.swift; sourceTree = "<group>"; };
 		04AEB59526E7A8A600CA18E5 /* TopStoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewModel.swift; sourceTree = "<group>"; };
 		04AEB59726E7A97D00CA18E5 /* TopStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStories.swift; sourceTree = "<group>"; };
+		04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoryDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				04AEB55B26E7A44A00CA18E5 /* TopStoriesViewController.swift */,
 				04AEB59526E7A8A600CA18E5 /* TopStoriesViewModel.swift */,
 				04AEB59726E7A97D00CA18E5 /* TopStories.swift */,
+				04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */,
 			);
 			path = TopStories;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				04AEB55826E7A44A00CA18E5 /* AppDelegate.swift in Sources */,
 				04AEB59626E7A8A600CA18E5 /* TopStoriesViewModel.swift in Sources */,
 				04AEB58E26E7A72700CA18E5 /* Repository.swift in Sources */,
+				04AEB59A26E7A9FD00CA18E5 /* TopStoryDetails.swift in Sources */,
 				04AEB58C26E7A6A300CA18E5 /* NewsService.swift in Sources */,
 				04AEB55A26E7A44A00CA18E5 /* SceneDelegate.swift in Sources */,
 			);
