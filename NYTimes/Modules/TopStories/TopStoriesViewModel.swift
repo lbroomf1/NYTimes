@@ -10,7 +10,7 @@ import Combine
 
 protocol TopStoriesViewModelType {
     var numberofItems:Int { get }
-    var newsBinding:Published<TopStories?>.Publisher { get }
+    var topStoriesBinding:Published<TopStories?>.Publisher { get }
     func getTopStories()
     func getTopStoryDetails(for index:Int)-> TopStoryDetails?
 }
@@ -24,7 +24,7 @@ class TopStoriesViewModel {
     
     @Published private var topStories:TopStories?
     
-    var newsBinding:Published<TopStories?>.Publisher { $topStories }
+    var topStoriesBinding:Published<TopStories?>.Publisher { $topStories }
     
     init(repository:Repository = RepositoryImpl()) {
         self.repository = repository

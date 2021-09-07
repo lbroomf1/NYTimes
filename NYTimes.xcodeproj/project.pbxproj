@@ -22,6 +22,7 @@
 		04AEB59626E7A8A600CA18E5 /* TopStoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59526E7A8A600CA18E5 /* TopStoriesViewModel.swift */; };
 		04AEB59826E7A97D00CA18E5 /* TopStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59726E7A97D00CA18E5 /* TopStories.swift */; };
 		04AEB59A26E7A9FD00CA18E5 /* TopStoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */; };
+		04AEB59D26E7ACB300CA18E5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEB59C26E7ACB300CA18E5 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		04AEB59526E7A8A600CA18E5 /* TopStoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewModel.swift; sourceTree = "<group>"; };
 		04AEB59726E7A97D00CA18E5 /* TopStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStories.swift; sourceTree = "<group>"; };
 		04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoryDetails.swift; sourceTree = "<group>"; };
+		04AEB59C26E7ACB300CA18E5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				04AEB58A26E7A62B00CA18E5 /* Modules */,
 				04AEB58926E7A62000CA18E5 /* Utility */,
 				04AEB58826E7A61500CA18E5 /* Repository */,
+				04AEB59B26E7AC9500CA18E5 /* Coordinator */,
 				04AEB58726E7A5FC00CA18E5 /* Service */,
 				04AEB55726E7A44A00CA18E5 /* AppDelegate.swift */,
 				04AEB55926E7A44A00CA18E5 /* SceneDelegate.swift */,
@@ -195,6 +198,14 @@
 				04AEB59926E7A9FD00CA18E5 /* TopStoryDetails.swift */,
 			);
 			path = TopStories;
+			sourceTree = "<group>";
+		};
+		04AEB59B26E7AC9500CA18E5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				04AEB59C26E7ACB300CA18E5 /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +344,7 @@
 				04AEB59126E7A76100CA18E5 /* URLRequest+Extension.swift in Sources */,
 				04AEB55826E7A44A00CA18E5 /* AppDelegate.swift in Sources */,
 				04AEB59626E7A8A600CA18E5 /* TopStoriesViewModel.swift in Sources */,
+				04AEB59D26E7ACB300CA18E5 /* Coordinator.swift in Sources */,
 				04AEB58E26E7A72700CA18E5 /* Repository.swift in Sources */,
 				04AEB59A26E7A9FD00CA18E5 /* TopStoryDetails.swift in Sources */,
 				04AEB58C26E7A6A300CA18E5 /* NewsService.swift in Sources */,
